@@ -1,0 +1,29 @@
+.userInputContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputLink {
+    text-decoration: none;
+    background-color: grey;
+    padding: 8px;
+    width: 70px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.inputLink:hover {
+    background-color: lightgray;
+}
+
+.validateButton {
+    color: white;
+    margin: 0;
+}
+
+.userInputForm {
+    display: flex;
+    flex-direction: row;
+}
